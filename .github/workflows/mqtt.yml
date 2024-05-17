@@ -37,7 +37,7 @@ jobs:
           - version: latest
             openssl: "-openssl"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: docker/setup-qemu-action@v3
 

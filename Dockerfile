@@ -1,8 +1,8 @@
 FROM eclipse-mosquitto:injected-version
 
 LABEL maintainer="Matthew Baggett <matthew@baggett.me>" \
-      org.label-schema.vcs-url="https://github.com/benzine-framework/docker" \
-      org.opencontainers.image.source="https://github.com/benzine-framework/docker"
+      org.label-schema.vcs-url="https://github.com/benzine-framework/docker-mqtt" \
+      org.opencontainers.image.source="https://github.com/benzine-framework/docker-mqtt"
 
 COPY mosquitto.conf /mosquitto/config/mosquitto.conf
 
